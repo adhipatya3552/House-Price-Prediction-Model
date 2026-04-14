@@ -150,7 +150,10 @@ streamlit run app.py
 
 ## 📁 Project Structure
 
-house-price-boston/
+## 📁 Project Structure
+
+```
+house-price-prediction-model/
 │
 ├── app/                # Streamlit app
 ├── data/               # Dataset
@@ -163,6 +166,7 @@ house-price-boston/
 ├── image.png           # Screenshot of the project
 ├── README.md
 └── requirements.txt
+```
 
 ---
 
