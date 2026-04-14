@@ -149,6 +149,7 @@ streamlit run app.py
 ---
 
 ## 📁 Project Structure
+```
 house-price-boston/
 │
 ├── app/ # Streamlit app
@@ -161,7 +162,7 @@ house-price-boston/
 ├── image.png # Screenshot of the project
 ├── README.md
 └── requirements.txt
-
+```
 
 ---
 
