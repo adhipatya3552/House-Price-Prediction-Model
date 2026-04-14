@@ -149,20 +149,20 @@ streamlit run app.py
 ---
 
 ## 📁 Project Structure
-```
+
 house-price-boston/
 │
-├── app/ # Streamlit app
-├── data/ # Dataset
-├── models/ # Saved model
-├── src/ # ML pipeline code
-├── main.py # Main execution file
-├── image-1.png # Screenshot of the project
-├── image-2.png # Screenshot of the project
-├── image.png # Screenshot of the project
+├── app/                # Streamlit app
+├── data/               # Dataset
+├── models/             # Saved model
+├── src/                # ML pipeline code
+│
+├── main.py             # Main execution file
+├── image-1.png         # Screenshot of the project
+├── image-2.png         # Screenshot of the project
+├── image.png           # Screenshot of the project
 ├── README.md
 └── requirements.txt
-```
 
 ---
 
