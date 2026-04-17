@@ -4,7 +4,20 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-model, feature_columns = pickle.load(open("../models/model.pkl", "rb"))
+import os
+import pickle
+
+# Get absolute path of current file
+current_dir = os.path.dirname(os.path.abspath(__file__))
+
+# Move to project root
+project_root = os.path.dirname(current_dir)
+
+# Build correct path
+model_path = os.path.join(project_root, "models", "model.pkl")
+
+# Load model
+model, feature_columns = pickle.load(open(model_path, "rb"))
 
 st.title("Boston House Price Predictor")
 
